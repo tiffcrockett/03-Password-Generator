@@ -15,7 +15,7 @@ function writePassword() {
 };
 
 function generatePassword() { 
-  var start = alert("Let's generate a new Password!  Ok = Yes    Cancel = No");
+  var start = alert("Let's generate a new Password! \n For this app Ok = Yes  Cancel = No");
     
   // prompt for length of password
   var pswdLength = prompt("How many characters will be in your password? Choose 8 to 128.");
