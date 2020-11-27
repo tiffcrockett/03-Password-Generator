@@ -1,3 +1,10 @@
+// get user input
+// make all character choices randomize
+// put random user choices in array
+// shuffle array = password
+// put the password on the page
+
+
 var generateBtn = document.querySelector("#generate");  
 
 // Write password to the #password input
@@ -29,7 +36,7 @@ function specChar() {
 // generate the password
 function generatePassword() {
   // instruction to the user
-  alert("Let's generate a new Password! \nFor this app Ok = Yes  Cancel = no");
+  alert("Let's generate a new Password! \nFor this app  Ok = Yes  Cancel = no");
 
   // ask length of password, validate required parameters of 8 to 128 - app will not proceed unless valid input
   var pswdLength = prompt("How many characters will be in your password? Choose 8 to 128");
@@ -51,15 +58,15 @@ function generatePassword() {
     // app proceeding - put user char choices in an empty array
   } else {
     var chosenCharArray = [];
+    
     // define passwordText inside function as empty string to have somewhere to put the passwordText
-    passwordText = " "; 
+    var passwordText = " "; 
 
     // for loop array over chosen password length
     // define i to get function to work
     var i = pswdLength;
     for (i = 0; i < pswdLength.length; i++) { 
       console.log(chosenCharArray);
-
       if (upCase) {
         chosenCharArray.push(upCaseChar());
       } 
@@ -72,11 +79,12 @@ function generatePassword() {
       if (special) {
         chosenCharArray.push(specChar());
       } 
+        console.log();
       //rearrange chosenCharArray characters - put them in random order - function?
-      var rndmOrdArrChars = Math.floor(Math.random() * chosenCharArray.length);
-      passwordText = chosenCharArray[rndmOrdArrChars]; 
-      return passwordText;  
-      }
+      var rndmOrdArrChars = Math.floor(Math.random() * chosenCharArray.length); 
+      	passwordText = chosenCharArray[rndmOrdArrChars]; 
+    	}
+      return passwordText;
     }   
   } 
 } 
