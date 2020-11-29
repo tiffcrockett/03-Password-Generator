@@ -10,7 +10,7 @@ The Password Generator could be improved by adding a clipboard or features to he
 
 #Screenshot 
 
-![images]
+![images]https://github.com/tiffcrockett/03-Password-Generator/blob/main/assets/images/PswdGenScrn.png?raw=true
 
 
 
