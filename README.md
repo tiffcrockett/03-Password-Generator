@@ -6,7 +6,7 @@ I utilized alert(), prompt(), and confirm() to provide instructions to and get i
 
 My code works! (My only real objective.) Surfing for some help with my JavaScript, I noticed several comments on Stack Overflow that using charCodes is a streamlined, more efficient way to code this type of project. I downloaded the ASCII Charcode Chart, to see what I was working with, and attempted to figure out how to do that. And proceeded to  coded myself into utter frustration. I've been coding for about 4 weeks. So, I used strings and an array for my password generator. My code is 65 lines, not efficient, but I think it is logical and well structured for a newbie. What do you think?
 
-The Password Generator application could be improved by adding a clipboard or features to help users manage a list of websites and corresponding usernames and passwords.  This would be especially helpful to users as it is recommended to update passwords periodically. 
+The Password Generator application could be improved by adding features to help users manage a list of websites and corresponding usernames and passwords.  This would be especially helpful to users as it is recommended to update passwords periodically. 
 
 #Screenshot 
 
