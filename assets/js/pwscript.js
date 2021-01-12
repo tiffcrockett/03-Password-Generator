@@ -10,7 +10,7 @@ function writePassword() {
 function generatePassword() {   
     
     // instruction to the user
-    alert("Let's generate a new Password! \nFor this app  Ok = Yes  Cancel = no");
+    alert("Let's generate a new Password! \nFor this app  Ok = Yes  Cancel = No");
 
     // ask length of password, validate required parameters of 8 to 128 - app will not proceed unless valid input
     var pswdLength = prompt("How many characters will be in your password? Choose 8 to 128");
