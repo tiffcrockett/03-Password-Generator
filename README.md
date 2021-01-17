@@ -23,7 +23,7 @@ The application could be improved by adding features to allow users to create an
 
 ## Application-Image
 
-![Screenshot of webpage](https://github.com/tiffcrockett/03-Password-Generator/blob/main/assets/images/PswdGenScrn.png)
+![Screenshot of webpage](https://github.com/tiffcrockett/03-Password-Generator/blob/main/assets/images/PwdGenScrn.png)
 
 ## Installation
 
