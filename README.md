@@ -1,4 +1,4 @@
-# Work Day Scheduler
+# Password Generator
 
 ## Table of Contents
 * [Description](#description)
